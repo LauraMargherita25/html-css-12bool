@@ -16,14 +16,18 @@
     align-items: center;
 }
 
-.row:last-of-type .col-6{
-    /* padding: 1rem;*/
+/* .layout-1 .row:last-of-type .col-6{
+    padding: 1rem;
 } 
 
-.row:last-of-type .col-6 > div{
+.layout-1 .row:last-of-type .col-6 > div{
     height: 50%;
 
     background-color: rgb(105, 12, 12);
 
-    border: none;
-} 
+    border: none; 
+}  */
+
+.layout-2{
+    margin-top: 2rem;
+}

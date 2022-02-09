@@ -1,14 +1,24 @@
+/* css reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* /css reset */
+
 :root{
     color: aliceblue;
     font-family: 'Montserrat', sans-serif;
 }
 
 .row{
-    background-color: blueviolet;
+    height: 50px;
 }
 
 [class*="col-"]{
-    height: 50px;
+    /* height: 50px; */
+    background-color: blueviolet;
+    
     border: 1px solid white;
 
     display: flex;
@@ -16,18 +26,18 @@
     align-items: center;
 }
 
-/* .layout-1 .row:last-of-type .col-6{
-    padding: 1rem;
-} 
+.col-6 .row{
+    border: 8px solid blueviolet;
+}
+.col-6 .col-2{
+    border: 1px solid blueviolet;
+}
+.row .row [class*="col-"]{
+    background-color: blue;
 
-.layout-1 .row:last-of-type .col-6 > div{
-    height: 50%;
+}
 
-    background-color: rgb(105, 12, 12);
-
-    border: none; 
-}  */
-
-.layout-2{
+.layout-2,
+.layout-3{
     margin-top: 2rem;
 }

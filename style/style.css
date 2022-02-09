@@ -13,12 +13,13 @@
 
 .row{
     height: 50px;
-}
+}    
 
 [class*="col-"]{
     /* height: 50px; */
     background-color: blueviolet;
-    
+    padding: 1rem;
+
     border: 1px solid white;
 
     display: flex;
@@ -26,18 +27,14 @@
     align-items: center;
 }
 
-.col-6 .row{
-    border: 8px solid blueviolet;
-}
-.col-6 .col-2{
-    border: 1px solid blueviolet;
-}
 .row .row [class*="col-"]{
     background-color: blue;
+    border: 1px solid blueviolet;
+} 
 
-}
-
+.layout-1,
 .layout-2,
 .layout-3{
-    margin-top: 2rem;
+    margin: 2rem 0;
+    border: 1px solid white;
 }
